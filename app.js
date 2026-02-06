@@ -26,6 +26,7 @@ app.get('/:page', (req, res) => {
     });
 });
 
+
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
     console.log(`Access the server: http://localhost:${PORT}`);
